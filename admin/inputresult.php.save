@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ADMIN ENTRY</title>
+	<style type="text/css">
+		h1 {
+			text-align:center;
+		}
+		form {
+			background-color:gray;
+		}
+		body {
+			background-color:gray;
+		}
+		input {
+			background-color:gray;
+		}
+		table {
+			margin
+		}
+		table {
+			border-color:black;
+		}
+	</style>
+</head>
+<body>
+<h1>Input result </h1>
+<form>
+	<table border="5">
+		<tr>
+			<td>
+				Name:
+			</td>
+			<td>
+				<input type="text" name="bname" required>
+			</td>
+		</tr>
+		<tr>
+		<td>
+			Symbol no:
+		</td>
+		<td>
+			<input type="number" name="bsym" required>
+		<tr>
+			<td>
+				class:
+			</td>
+			<td>
+				<select name="bclass">
+					<option>1</option>
+					<option>2</option>
+					<option>3</option>
+					<option>4</option>
+					<option>5</option>
+					<option>6</option>
+					<option>7</option>
+					<option>8</option>
+					<option>9</option>
+					<option>10</option>
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				Percentage:
+			</td>
+			<td>
+				<input type="number" id="bper" name="bper" required>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				Position:
+			</td>
+			<td>
+				<input type="number" id="bpost" required>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				Image:
+			</td>
+			<td>
+				<input type="file" id="bimg" name="bimg">
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+				<input type="submit" id="bsub">
+			</td>
+		</tr>
+	</table>
+</form>
+</body>
+</html>

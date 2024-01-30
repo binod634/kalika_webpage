@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+
+    *{margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+
+   section
+    {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+        width: 100vw;
+       height: 100vh;
+       background: linear-gradient(-45deg,#29B0C5,#E9BB5D,#CB4561);
+    background-size: 300%;
+    animation: anim 10s infinite alternate;
+    }
+   h1{
+      
+       font-size: 60px;
+    mix-blend-mode:overlay;
+    
+    }
+   
+
+    
+      @keyframes anim
+    {
+        0%{ background-position:left ; }
+        70%{background-position:right }
+        100%{background-position: center;
+        }  
+   }
+</style>
+</head>
+<body>
+    <section><div><h1>Hello</h1></div></section>
+</body>
+</html>
